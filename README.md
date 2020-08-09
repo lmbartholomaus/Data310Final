@@ -26,3 +26,9 @@ The model can broken down into four steps
 
 [Literature on Image Captioning]()
 
+# Going Further
+If I were given more time and resources I would want to train a model on all of the data, not just 3 sororities, in order to actually develop a semi-accurate prediction model for bidding. The hope is that a program like this could be utilized in job recruiting or publicity. In a business setting, the image captioning model itself would be trained on a more objective description dataset (the tensorflow model used the MS COCO dataset) and then used to deliver insights about clientele that use the program. 
+
+In the context of the problem, by utilizing the sorority images and captions for training, it is more likely that the computer will be able to generate a caption without giving any consideration to the potential new member. This would allow for a lack of bias in the prediction process. The predictions are made based on dictionaries compiled of all the captions. There would be a dictionary associated with each sorority and the user is returned a list with the percentage of shared keys the potential new member dictionary has with each sorority dictionary.
+
+
