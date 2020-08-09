@@ -23,3 +23,6 @@ The model can broken down into four steps
 3. CNN Encoder (single fully connected layer)
 
 4. RNN Decoder (GRU attends over image to predict words in caption)
+
+[Literature on Image Captioning]()
+
